@@ -1,0 +1,2 @@
+1. id harus sama dengan for
+2. mengganti text/class secara bersamaan (text harus sama) doubel click lalu select 

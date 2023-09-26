@@ -1,0 +1,3 @@
+multiple cursor
+Windows = Ctrl + click
+Mac = cmd + click

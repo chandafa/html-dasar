@@ -1,0 +1,10 @@
+<input type=" ">
+
+1. text
+2. password
+3. radio
+4. checkbox
+5. submit
+6. reset
+7. button (tidak untuk input)
+...

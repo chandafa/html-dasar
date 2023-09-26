@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <title>Tabel</title>
+  </head>
+  <body>
+    <form>
+      <table border="0" cellspacing="0" cellpadding="5">
+        <tr>
+          <td>Username </td>
+          <td> :   <input type="text" name="username" /></td>
+        </tr>
+        <tr>
+          <td>Password </td>
+          <td> :   <input type="password" name="pwd" /></td>
+        </tr>
+
+        <tr>
+          <td>Jenis Kelamin</td>
+          <td>
+            :<input type="radio" name="JK" value="Laki-laki" />Laki-laki
+            <input type="radio" name="JK" value="Perempuan" />Perempuan
+          </td>
+        </tr>
+        <tr>
+          <td>Hobby</td>
+          <td>
+            :<input type="checkbox" name="hobby" value="g" />menyanyi
+            <input type="checkbox" name="hobby" value="b" />olahraga
+            <input type="checkbox" name="hobby" value="c" />ngoding
+          </td>
+        </tr>
+        <tr>
+          <td>Alamat</td>
+          <td>:   <select>
+                    <option>Jakarta</option>
+                    <option>Yogyakarta</option>
+                    <option>Jakarta</option>
+                  </select>
+          </td>
+        </tr>
+        <tr>
+          <td>Pesan</td>
+          <td>:   <textarea name="pesan" cols="25px" rows="3px"></textarea></td>
+        </tr>
+        <tr>
+          <td colspan="2">
+            <input type="submit" name="submit" value="Simpan" />
+          </td>
+        </tr>
+      </table>
+    </form>
+  </body>
+</html>

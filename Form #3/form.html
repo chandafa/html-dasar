@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>HTML Form</title>
+  </head>
+  <body>
+    <!-- jangan lupa nulis <form></form> dulu. -->
+    <form>
+            <!-- type text untuk text field  -->
+      <label for="username">username :</label>
+      <input type="text" id="username" />
+      <br />
+
+      <!-- tyoe password menyembunyikan text -->
+      <label for="password">password :</label>
+      <input type="password" id="password" />
+      <br />
+
+      <!-- radio hanya bisa memilih satu -->
+      <input type="radio" id="pria" name="jeniskelamin" />
+      <label for="pria">Pria</label>
+      <input type="radio" id="wanita" name="jeniskelamin" />
+      <label for="wanita">Wanita</label>
+      <br />
+
+      <!-- checkbox bisa memilih banyak  -->
+      <input type="checkbox" id="menyanyi" />
+      <label for="menyanyi">menyanyi</label>
+      <input type="checkbox" id="olahraga" />
+      <label for="olahraga">olahraga</label>
+      <input type="checkbox" id="ngoding" />
+      <label for="ngoding">ngoding</label>
+      <br />
+      <button type="submit">Kirim!</button>
+    </form>
+  </body>
+</html>

@@ -1,0 +1,6 @@
+1. input (untuk menginput sesuatu)
+2. textarea (untuk mengisikan komentar/pesan)
+3. select (untuk membuat dropdown)
+4. button (tombol untuk mengirim data)
+5. label (untuk menandai element input)
+

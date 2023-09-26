@@ -1,0 +1,6 @@
+<table></table>
+1. border (menambahkan garis disekitar cell)
+2. cellspacing (menambah jarak antar cell)
+3. cellpadding (memberi ruas pada cell)
+4. colspan
+5. rowspan
